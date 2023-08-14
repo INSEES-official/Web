@@ -12,10 +12,9 @@
     cd Web
     npm i  
     
-  #### Those who are using LAN ( proxy )
+  #### Those who are using LAN ( proxy ) (It is dynamic proxy, Don't use static proxy)
     cd Web
     npm --proxy http://172.16.199.20:8080 i 
-(It is dynamic proxy, Don't use static proxy)
 
 ## EVERYTIME YOU WORK ON A NEW ISSUE:
 
