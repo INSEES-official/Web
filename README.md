@@ -5,14 +5,14 @@
 
 ## FIRST TASK FOR ALL: 
 	
-  ### Clone Repository: 
+  #### Clone Repository: 
     git clone https://github.com/INSEES-official/Web.git
     
   #### Install Dependencies
     cd Web
     npm i  
     
-  ### Run locally
+  #### Run locally
    Run the following command in your terminal
  
    ```bash
