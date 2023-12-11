@@ -6,6 +6,13 @@ export default function Home() {
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
       <Image src={Insees} />
       <div className="flex gap-2"></div>
+      <Image src={Insees} />
+      <Image src={Insees} />
+      <Image src={Insees} />
+      <Image src={Insees} />
+      <Image src={Insees} />
+      <Image src={Insees} />
+      <Image src={Insees} />
     </main>
   );
 }

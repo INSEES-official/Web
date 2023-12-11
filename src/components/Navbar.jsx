@@ -50,7 +50,7 @@ const Navbar = () => {
   }, [path]);
 
   return (
-    <div className="relative right-0">
+    <div className="fixed">
       <Navbutton open={open} setOpen={setOpen} />
       <Menu activePages={activePages} open={open} setOpen={setOpen} />
     </div>
