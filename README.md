@@ -8,10 +8,17 @@
   ### Clone Repository: 
     git clone https://github.com/INSEES-official/Web.git
     
-  #### Next step
+  #### Install Dependencies
     cd Web
     npm i  
     
+  ### Run locally
+   Run the following command in your terminal
+ 
+   ```bash
+    npm run dev
+   ```
+  
   #### Those who are using LAN ( proxy ) (It is dynamic proxy, Don't use static proxy)
     cd Web
     npm --proxy http://172.16.199.20:8080 i 
@@ -37,7 +44,4 @@
     git remote set-url origin https://<SSH_Key>@https://github.com/INSEES-official/Web.git
     git push –set-upstream origin home_section
 
-### How to Run in local system : 
-    node app.js   (or npm start or npm start dev)
-    localhost:3000
     
