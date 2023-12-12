@@ -8,11 +8,11 @@ const Menu = ({ activePages, open, setOpen }) => {
       }`}
     >
       {activePages.map((page) => (
-        <div className="hover:text-2xl duration-100 ease-in-out py-2">
-          <Link href={page.link} onClick={() => setOpen(false)} key={page.id}>
+        <Link href={page.link} onClick={() => setOpen(!open)} key={page.id}>
+          <div className="hover:text-2xl duration-100 ease-in-out py-2">
             {page.name}
-          </Link>
-        </div>
+          </div>
+        </Link>
       ))}
     </div>
   );

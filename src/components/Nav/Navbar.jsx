@@ -1,52 +1,20 @@
 "use client";
 
-import { useState, useEffect } from "react";
+import { useEffect } from "react";
+import { useNavStore } from "@/store";
 import { usePathname } from "next/navigation";
 import Navbutton from "./Navbutton";
 import Menu from "./Menu";
 
-const pages = [
-  {
-    id: 1,
-    name: "Home",
-    link: "/",
-  },
-  {
-    id: 2,
-    name: "Gallery",
-    link: "/gallery",
-  },
-  {
-    id: 3,
-    name: "Team",
-    link: "/team",
-  },
-  {
-    id: 4,
-    name: "Developers",
-    link: "/developers",
-  },
-  {
-    id: 5,
-    name: "Blogs",
-    link: "/blogs",
-  },
-  {
-    id: 6,
-    name: "Resources",
-    link: "/resources",
-  },
-];
-
 const Navbar = () => {
-  const [activePages, setActivePages] = useState(pages);
-  const [open, setOpen] = useState(false);
+  const activePages = useNavStore((state) => state.initialPages);
+  const open = useNavStore((state) => state.open);
+  const setOpen = useNavStore((state) => state.setOpen);
+  const filterPages = useNavStore((state) => state.filterPages);
   const path = usePathname();
 
   useEffect(() => {
-    const currentPage = path;
-    setActivePages(pages.filter((page) => page.link != currentPage));
-    console.log(activePages, path);
+    filterPages(path);
   }, [path]);
 
   return (
