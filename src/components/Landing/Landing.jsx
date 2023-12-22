@@ -16,20 +16,20 @@ const Landing = () => {
         open ? "-z-10" : "z-0 duration-500"
       }`}
     >
-      <div className="absolute top-0 hidden lg:block">
+      <div className="absolute top-0 hidden lg:block animate-pulse">
         <Blue />
       </div>
       <div
         className={`absolute left-20 ${
           open ? "-z-10" : "z-0 duration-500"
-        } hidden lg:block`}
+        } hidden lg:block animate-pulse`}
       >
         <Yellow />
       </div>
-      <div className="absolute left-1/4 top-1/2 hidden lg:block">
+      <div className="absolute left-1/4 top-1/2 hidden lg:block animate-pulse">
         <Green />
       </div>
-      <div className="absolute right-10 top-1/3 hidden lg:block">
+      <div className="absolute right-10 top-1/3 hidden lg:block animate-pulse">
         <Orange />
       </div>
       <div className="p-10 flex flex-col items-center mt-20">
@@ -40,7 +40,7 @@ const Landing = () => {
           INSEES
         </motion.h1>
         <div
-          className={`flex flex-col items-center mt-14 p-3 ${poppins.variable} font-poppins md:text-3xl text-center`}
+          className={`flex flex-col items-center mt-14 p-3 ${poppins.variable} font-poppins md:text-3xl text-center z-10`}
         >
           <h2 className="text-slate-100">
             Instrumentation and Electronics Engineering Society
