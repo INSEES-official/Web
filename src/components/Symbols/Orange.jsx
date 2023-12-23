@@ -14,7 +14,7 @@ const Orange = () => {
           <path
             d="M76.5 179L76.5 4.41074e-06"
             stroke="url(#paint0_linear_138_100)"
-            stroke-width="0.5"
+            strokeWidth="0.5"
           />
           <rect x="75" y="178" width="3" height="3" rx="1.5" fill="white" />
           <g filter="url(#filter1_b_138_100)">
@@ -25,7 +25,7 @@ const Orange = () => {
               height="92"
               rx="6"
               fill="black"
-              fill-opacity="0.1"
+              fillOpacity="0.1"
             />
             <rect
               x="32.25"
@@ -34,8 +34,8 @@ const Orange = () => {
               height="92.5"
               rx="6.25"
               stroke="#CACBCB"
-              stroke-opacity="0.33"
-              stroke-width="0.5"
+              strokeOpacity="0.33"
+              strokeWidth="0.5"
             />
             <rect
               x="47.5"
@@ -53,7 +53,7 @@ const Orange = () => {
                 height="54"
                 rx="8"
                 fill="#F89F1A"
-                shape-rendering="crispEdges"
+                shapeRendering="crispEdges"
               />
               <path
                 d="M84.8332 223.5V221.833H80.6665V217.667H78.9998V221.833H77.3332V217.667H75.6665V221.833H73.9998V217.667H72.3332V221.833H68.1665V223.5H72.3332V225.167H68.1665V226.833H72.3332V228.5H68.1665V230.166H72.3332V234.333H73.9998V230.166H75.6665V234.333H77.3332V230.166H78.9998V234.333H80.6665V230.166H84.8332V228.5H80.6665V226.833H84.8332V225.167H80.6665V223.5H84.8332Z"
@@ -78,9 +78,9 @@ const Orange = () => {
             width="253"
             height="372.5"
             filterUnits="userSpaceOnUse"
-            color-interpolation-filters="sRGB"
+            colorInterpolationFilters="sRGB"
           >
-            <feFlood flood-opacity="0" result="BackgroundImageFix" />
+            <feFlood floodOpacity="0" result="BackgroundImageFix" />
             <feGaussianBlur in="BackgroundImageFix" stdDeviation="25" />
             <feComposite
               in2="SourceAlpha"
@@ -101,9 +101,9 @@ const Orange = () => {
             width="149"
             height="153"
             filterUnits="userSpaceOnUse"
-            color-interpolation-filters="sRGB"
+            colorInterpolationFilters="sRGB"
           >
-            <feFlood flood-opacity="0" result="BackgroundImageFix" />
+            <feFlood floodOpacity="0" result="BackgroundImageFix" />
             <feGaussianBlur in="BackgroundImageFix" stdDeviation="15" />
             <feComposite
               in2="SourceAlpha"
@@ -124,9 +124,9 @@ const Orange = () => {
             width="88"
             height="94"
             filterUnits="userSpaceOnUse"
-            color-interpolation-filters="sRGB"
+            colorInterpolationFilters="sRGB"
           >
-            <feFlood flood-opacity="0" result="BackgroundImageFix" />
+            <feFlood floodOpacity="0" result="BackgroundImageFix" />
             <feColorMatrix
               in="SourceAlpha"
               type="matrix"
@@ -160,8 +160,8 @@ const Orange = () => {
             y2="0"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="white" />
-            <stop offset="1" stop-color="#D9D9D9" stop-opacity="0.07" />
+            <stop stopColor="white" />
+            <stop offset="1" stopColor="#D9D9D9" stopOpacity="0.07" />
           </linearGradient>
         </defs>
       </svg>
@@ -179,7 +179,7 @@ const Orange = () => {
             height="42"
             transform="translate(70 70)"
             fill="#F89F1A"
-            fill-opacity="0.5"
+            fillOpacity="0.5"
           />
         </g>
         <defs>
@@ -190,9 +190,9 @@ const Orange = () => {
             width="268"
             height="182"
             filterUnits="userSpaceOnUse"
-            color-interpolation-filters="sRGB"
+            colorInterpolationFilters="sRGB"
           >
-            <feFlood flood-opacity="0" result="BackgroundImageFix" />
+            <feFlood floodOpacity="0" result="BackgroundImageFix" />
             <feBlend
               mode="normal"
               in="SourceGraphic"

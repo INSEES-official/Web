@@ -15,21 +15,22 @@ const Landing = () => {
       className={`flex flex-col items-center  ${
         open ? "-z-10" : "z-0 duration-500"
       }`}
+      id="landing"
     >
-      <div className="absolute top-0 hidden lg:block animate-pulse">
+      <div className="absolute top-0 hidden lg:block blue-pulse">
         <Blue />
       </div>
       <div
         className={`absolute left-20 ${
           open ? "-z-10" : "z-0 duration-500"
-        } hidden lg:block animate-pulse`}
+        } hidden lg:block yellow-pulse`}
       >
         <Yellow />
       </div>
       <div className="absolute left-1/4 top-1/2 hidden lg:block animate-pulse">
         <Green />
       </div>
-      <div className="absolute right-10 top-1/3 hidden lg:block animate-pulse">
+      <div className="absolute right-10 top-1/3 hidden lg:block orange-pulse">
         <Orange />
       </div>
       <div className="p-10 flex flex-col items-center mt-20">

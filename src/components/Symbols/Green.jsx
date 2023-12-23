@@ -17,7 +17,7 @@ const Green = () => {
             height="33.1042"
             transform="translate(70.5254 70)"
             fill="#349D3F"
-            fill-opacity="0.5"
+            fillOpacity="0.5"
           />
         </g>
         <defs>
@@ -28,9 +28,9 @@ const Green = () => {
             width="268"
             height="173.104"
             filterUnits="userSpaceOnUse"
-            color-interpolation-filters="sRGB"
+            colorInterpolationFilters="sRGB"
           >
-            <feFlood flood-opacity="0" result="BackgroundImageFix" />
+            <feFlood floodOpacity="0" result="BackgroundImageFix" />
             <feBlend
               mode="normal"
               in="SourceGraphic"
@@ -61,7 +61,7 @@ const Green = () => {
               height="96"
               rx="6"
               fill="black"
-              fill-opacity="0.1"
+              fillOpacity="0.1"
             />
             <rect
               x="30.25"
@@ -70,8 +70,8 @@ const Green = () => {
               height="96.5"
               rx="6.25"
               stroke="#CACBCB"
-              stroke-opacity="0.33"
-              stroke-width="0.5"
+              strokeOpacity="0.33"
+              strokeWidth="0.5"
             />
             <rect
               x="45.5"
@@ -89,18 +89,18 @@ const Green = () => {
                 height="58"
                 rx="8"
                 fill="#349D3F"
-                shape-rendering="crispEdges"
+                shapeRendering="crispEdges"
               />
               <path
                 d="M71.5 53.2607V40.8607C71.5 40.7016 71.5632 40.549 71.6757 40.4365C71.7883 40.324 71.9409 40.2607 72.1 40.2607H80.9C80.9788 40.2607 81.0568 40.2763 81.1296 40.3064C81.2024 40.3366 81.2685 40.3808 81.3243 40.4365C81.38 40.4922 81.4242 40.5583 81.4543 40.6311C81.4845 40.7039 81.5 40.7819 81.5 40.8607V53.2607M71.5 53.2607H73.5M71.5 53.2607H69.5M81.5 53.2607H79.5M81.5 53.2607H83.5M73.5 53.2607H76.5M73.5 53.2607V59.2607M79.5 53.2607H76.5M79.5 53.2607V59.2607M76.5 53.2607V59.2607"
                 stroke="white"
-                stroke-width="2"
-                stroke-linecap="round"
-                stroke-linejoin="round"
+                strokeWidth="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
               />
             </g>
           </g>
-          <g clip-path="url(#clip0_138_134)">
+          <g clipPath="url(#clip0_138_134)">
             <rect
               x="75"
               y="96.2607"
@@ -113,7 +113,7 @@ const Green = () => {
           <path
             d="M76.5 99.2607V216.65"
             stroke="url(#paint0_linear_138_134)"
-            stroke-width="0.5"
+            strokeWidth="0.5"
           />
         </g>
         <defs>
@@ -124,9 +124,9 @@ const Green = () => {
             width="253"
             height="315.889"
             filterUnits="userSpaceOnUse"
-            color-interpolation-filters="sRGB"
+            colorInterpolationFilters="sRGB"
           >
-            <feFlood flood-opacity="0" result="BackgroundImageFix" />
+            <feFlood floodOpacity="0" result="BackgroundImageFix" />
             <feGaussianBlur in="BackgroundImageFix" stdDeviation="25" />
             <feComposite
               in2="SourceAlpha"
@@ -147,9 +147,9 @@ const Green = () => {
             width="153"
             height="157"
             filterUnits="userSpaceOnUse"
-            color-interpolation-filters="sRGB"
+            colorInterpolationFilters="sRGB"
           >
-            <feFlood flood-opacity="0" result="BackgroundImageFix" />
+            <feFlood floodOpacity="0" result="BackgroundImageFix" />
             <feGaussianBlur in="BackgroundImageFix" stdDeviation="15" />
             <feComposite
               in2="SourceAlpha"
@@ -170,9 +170,9 @@ const Green = () => {
             width="92"
             height="98"
             filterUnits="userSpaceOnUse"
-            color-interpolation-filters="sRGB"
+            colorInterpolationFilters="sRGB"
           >
-            <feFlood flood-opacity="0" result="BackgroundImageFix" />
+            <feFlood floodOpacity="0" result="BackgroundImageFix" />
             <feColorMatrix
               in="SourceAlpha"
               type="matrix"
@@ -206,8 +206,8 @@ const Green = () => {
             y2="216.65"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="white" />
-            <stop offset="1" stop-color="#D9D9D9" stop-opacity="0.07" />
+            <stop stopColor="white" />
+            <stop offset="1" stopColor="#D9D9D9" stopOpacity="0.07" />
           </linearGradient>
           <clipPath id="clip0_138_134">
             <rect

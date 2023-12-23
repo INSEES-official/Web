@@ -16,14 +16,14 @@ const Yellow = () => {
             height="33.1042"
             transform="translate(70 193.896)"
             fill="#EEB80A"
-            fill-opacity="0.5"
+            fillOpacity="0.5"
           />
         </g>
         <g filter="url(#filter1_b_138_122)">
           <path
             d="M130.5 117.389L130.5 -0.000229836"
             stroke="url(#paint0_linear_138_122)"
-            stroke-width="0.5"
+            strokeWidth="0.5"
           />
           <rect
             x="129"
@@ -41,7 +41,7 @@ const Yellow = () => {
               height="96"
               rx="6"
               fill="black"
-              fill-opacity="0.1"
+              fillOpacity="0.1"
             />
             <rect
               x="84.25"
@@ -50,8 +50,8 @@ const Yellow = () => {
               height="96.5"
               rx="6.25"
               stroke="#CACBCB"
-              stroke-opacity="0.33"
-              stroke-width="0.5"
+              strokeOpacity="0.33"
+              strokeWidth="0.5"
             />
             <rect
               x="99.5"
@@ -69,14 +69,14 @@ const Yellow = () => {
                 height="58"
                 rx="8"
                 fill="#EBBA08"
-                shape-rendering="crispEdges"
+                shapeRendering="crispEdges"
               />
               <path
                 d="M130.5 156.389V162.389M130.5 162.389L125.5 170.389H135.5L130.5 162.389ZM130.5 176.389V170.389M125.5 162.389H135.5"
                 stroke="white"
-                stroke-width="2"
-                stroke-linecap="round"
-                stroke-linejoin="round"
+                strokeWidth="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
               />
             </g>
           </g>
@@ -89,9 +89,9 @@ const Yellow = () => {
             width="268"
             height="173.104"
             filterUnits="userSpaceOnUse"
-            color-interpolation-filters="sRGB"
+            colorInterpolationFilters="sRGB"
           >
-            <feFlood flood-opacity="0" result="BackgroundImageFix" />
+            <feFlood floodOpacity="0" result="BackgroundImageFix" />
             <feBlend
               mode="normal"
               in="SourceGraphic"
@@ -110,9 +110,9 @@ const Yellow = () => {
             width="253"
             height="314.889"
             filterUnits="userSpaceOnUse"
-            color-interpolation-filters="sRGB"
+            colorInterpolationFilters="sRGB"
           >
-            <feFlood flood-opacity="0" result="BackgroundImageFix" />
+            <feFlood floodOpacity="0" result="BackgroundImageFix" />
             <feGaussianBlur in="BackgroundImageFix" stdDeviation="25" />
             <feComposite
               in2="SourceAlpha"
@@ -133,9 +133,9 @@ const Yellow = () => {
             width="153"
             height="157"
             filterUnits="userSpaceOnUse"
-            color-interpolation-filters="sRGB"
+            colorInterpolationFilters="sRGB"
           >
-            <feFlood flood-opacity="0" result="BackgroundImageFix" />
+            <feFlood floodOpacity="0" result="BackgroundImageFix" />
             <feGaussianBlur in="BackgroundImageFix" stdDeviation="15" />
             <feComposite
               in2="SourceAlpha"
@@ -156,9 +156,9 @@ const Yellow = () => {
             width="92"
             height="98"
             filterUnits="userSpaceOnUse"
-            color-interpolation-filters="sRGB"
+            colorInterpolationFilters="sRGB"
           >
-            <feFlood flood-opacity="0" result="BackgroundImageFix" />
+            <feFlood floodOpacity="0" result="BackgroundImageFix" />
             <feColorMatrix
               in="SourceAlpha"
               type="matrix"
@@ -192,8 +192,8 @@ const Yellow = () => {
             y2="-0.000228882"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="white" />
-            <stop offset="1" stop-color="#D9D9D9" stop-opacity="0.07" />
+            <stop stopColor="white" />
+            <stop offset="1" stopColor="#D9D9D9" stopOpacity="0.07" />
           </linearGradient>
         </defs>
       </svg>
