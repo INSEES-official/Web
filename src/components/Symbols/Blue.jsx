@@ -16,14 +16,14 @@ const Blue = () => {
             height="33.1042"
             transform="translate(70 177.896)"
             fill="#2875C9"
-            fill-opacity="0.5"
+            fillOpacity="0.5"
           />
         </g>
         <g filter="url(#filter1_b_138_110)">
           <path
             d="M130.5 101.389L130.5 -16.0002"
             stroke="url(#paint0_linear_138_110)"
-            stroke-width="0.5"
+            strokeWidth="0.5"
           />
           <rect
             x="129"
@@ -41,7 +41,7 @@ const Blue = () => {
               height="96"
               rx="6"
               fill="black"
-              fill-opacity="0.1"
+              fillOpacity="0.1"
             />
             <rect
               x="84.25"
@@ -50,8 +50,8 @@ const Blue = () => {
               height="96.5"
               rx="6.25"
               stroke="#CACBCB"
-              stroke-opacity="0.33"
-              stroke-width="0.5"
+              strokeOpacity="0.33"
+              strokeWidth="0.5"
             />
             <rect
               x="99.5"
@@ -69,21 +69,21 @@ const Blue = () => {
                 height="58"
                 rx="8"
                 fill="#2872C2"
-                shape-rendering="crispEdges"
+                shapeRendering="crispEdges"
               />
               <path
                 d="M140.5 150.389H134.5M134.5 150.389L126.5 145.389V155.389L134.5 150.389ZM120.5 150.389H126.5"
                 stroke="white"
-                stroke-width="2"
-                stroke-linecap="round"
-                stroke-linejoin="round"
+                strokeWidth="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
               />
               <path
                 d="M132.5 145.389H134.5V155.389H136.5"
                 stroke="white"
-                stroke-width="2"
-                stroke-linecap="round"
-                stroke-linejoin="round"
+                strokeWidth="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
               />
             </g>
           </g>
@@ -96,9 +96,9 @@ const Blue = () => {
             width="268"
             height="173.104"
             filterUnits="userSpaceOnUse"
-            color-interpolation-filters="sRGB"
+            colorInterpolationFilters="sRGB"
           >
-            <feFlood flood-opacity="0" result="BackgroundImageFix" />
+            <feFlood floodOpacity="0" result="BackgroundImageFix" />
             <feBlend
               mode="normal"
               in="SourceGraphic"
@@ -117,9 +117,9 @@ const Blue = () => {
             width="253"
             height="314.889"
             filterUnits="userSpaceOnUse"
-            color-interpolation-filters="sRGB"
+            colorInterpolationFilters="sRGB"
           >
-            <feFlood flood-opacity="0" result="BackgroundImageFix" />
+            <feFlood floodOpacity="0" result="BackgroundImageFix" />
             <feGaussianBlur in="BackgroundImageFix" stdDeviation="25" />
             <feComposite
               in2="SourceAlpha"
@@ -140,9 +140,9 @@ const Blue = () => {
             width="153"
             height="157"
             filterUnits="userSpaceOnUse"
-            color-interpolation-filters="sRGB"
+            colorInterpolationFilters="sRGB"
           >
-            <feFlood flood-opacity="0" result="BackgroundImageFix" />
+            <feFlood floodOpacity="0" result="BackgroundImageFix" />
             <feGaussianBlur in="BackgroundImageFix" stdDeviation="15" />
             <feComposite
               in2="SourceAlpha"
@@ -163,9 +163,9 @@ const Blue = () => {
             width="92"
             height="98"
             filterUnits="userSpaceOnUse"
-            color-interpolation-filters="sRGB"
+            colorInterpolationFilters="sRGB"
           >
-            <feFlood flood-opacity="0" result="BackgroundImageFix" />
+            <feFlood floodOpacity="0" result="BackgroundImageFix" />
             <feColorMatrix
               in="SourceAlpha"
               type="matrix"
@@ -199,8 +199,8 @@ const Blue = () => {
             y2="-16.0002"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="white" />
-            <stop offset="1" stop-color="#D9D9D9" stop-opacity="0.07" />
+            <stop stopColor="white" />
+            <stop offset="1" stopColor="#D9D9D9" stopOpacity="0.07" />
           </linearGradient>
         </defs>
       </svg>
@@ -218,7 +218,7 @@ const Blue = () => {
             height="33.1042"
             transform="translate(70 70.896)"
             fill="#2875C9"
-            fill-opacity="0.5"
+            fillOpacity="0.5"
           />
         </g>
         <defs>
@@ -229,9 +229,9 @@ const Blue = () => {
             width="268"
             height="173.104"
             filterUnits="userSpaceOnUse"
-            color-interpolation-filters="sRGB"
+            colorInterpolationFilters="sRGB"
           >
-            <feFlood flood-opacity="0" result="BackgroundImageFix" />
+            <feFlood floodOpacity="0" result="BackgroundImageFix" />
             <feBlend
               mode="normal"
               in="SourceGraphic"
